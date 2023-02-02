@@ -1,0 +1,27 @@
+dependencies:
+  - aopo
+  - bao
+  - bfo
+  - bto
+  - ccont
+  - CHEBI
+  - cheminf
+  - chmo
+  - cito
+  - clo
+  - efo
+  - envo
+  - fabio
+  - go
+  - iao
+  - ncit
+  - npo
+  - oae
+  - obcs
+  - obi
+  - pato
+  - ro
+  - sio
+  - uberon
+  - uo
+api_key: ""
