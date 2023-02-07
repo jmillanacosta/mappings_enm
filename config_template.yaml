@@ -1,4 +1,4 @@
-dependencies:
+dependencies: #script makes uppercase
   - aopo
   - bao
   - bfo
@@ -24,8 +24,12 @@ dependencies:
   - sio
   - uberon
   - uo
-api_key: xxxx 
+api_key: #your bioportal API key
 classes:
+### FORMAT: ###
+#class label:
+# - Dependency name
+# - IRI used in eNM
  chemical substance:
   - CHEBI 
   - http://purl.obolibrary.org/obo/CHEBI_59999
