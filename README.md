@@ -5,3 +5,7 @@
 |  2 | http://semanticscience.org/resource/SIO_011126     | http://www.bioassayontology.org/bao#BAO_0003043      | http://purl.obolibrary.org/obo/SIO_000004                  |                                                    |                                                    |
 |  3 |                                                    | http://www.bootstrep.eu/ontology/GRO#MolecularEntity | http://semanticscience.org/resource/SIO_000004             |                                                    |                                                    |
 |  4 |                                                    |                                                      | http://www.bioassayontology.org/bao#BAO_0003116            |                                                    |                                                    |
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2815474/ describes the LOOM algorythm used for mappings. It leads to very weird mappings, like BAO material entity = BAO immaterial entity, because of its pensalty system... It seems to be discontinued/not supported anymore, but BioPortal keeps showing the mappings from LOOM in the mappings tab.
+
