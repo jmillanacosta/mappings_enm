@@ -1,0 +1,38 @@
+# curie_map:
+#   BAO: http://www.bioassayontology.org/bao#BAO_
+#   BTO: http://purl.obolibrary.org/obo/BTO_
+#   CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+#   EFO: http://www.ebi.ac.uk/efo/EFO_
+#   ENM: http://enanomapper.github.io/ontologies/enanomapper.owl
+#   ENVO: http://purl.obolibrary.org/obo/ENVO_
+#   IAO: http://purl.obolibrary.org/obo/IAO_
+#   NPO: http://purl.bioontology.org/ontology/npo#
+#   OBI: http://purl.obolibrary.org/obo/OBI_
+#   orcid: https://orcid.org/
+#   owl: http://www.w3.org/2002/07/owl#
+#   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+#   rdfs: http://www.w3.org/2000/01/rdf-schema#
+#   semapv: https://w3id.org/semapv/vocab/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   sssom: https://w3id.org/sssom/
+# license: https://creativecommons.org/share-your-work/public-domain/cc0
+# mapping_set_description: Manually curated alignment of the redundant classes removed
+#   from the eNanoMapper Ontology (ENMO) via Slimmer to the classes they were redundant
+#   for. Intended to be used for ontological analysis and explainability of the ENMO.
+# mapping_set_id: https://w3id.org/sssom/mappings/6b620896-e3a3-4877-a06a-587ecd539a19
+# mapping_set_version: '2023-09-12'
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	mapping_date	confidence
+BAO:0000190	IC50	skos:exactMatch	NPO:1195	IC50	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+BAO:0002145	LC-50	skos:exactMatch	NPO:1196	LC-50	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+BTO:0000018	A549	skos:exactMatch	EFO:0001086	A-549 cell	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+CHEBI:52855	inorganic nanoparticle	skos:exactMatch	NPO:1536	inorganic nanoparticle	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+ENM:0000089	solubility	skos:exactMatch	BAO:0002135	solubility	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+IAO:0000120	western blot analysis	skos:exactMatch	NPO:1424	western blot analysis	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+NPO:1542	zinc oxide nanoparticle	skos:exactMatch	CHEBI:50836	zinc oxide nanoparticle	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+NPO:1892	silver nanoparticle	skos:exactMatch	CHEBI:50826	silver nanoparticle	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+NPO:1893	bimetallic nanoparticle	skos:exactMatch	CHEBI:52522	bimetallic nanoparticle	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+NPO:401	gold nanoparticle	skos:exactMatch	CHEBI:50825	gold nanoparticle	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+NPO:639	emulsion	skos:exactMatch	ENVO:00010506	emulsion	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+NPO:729	iron oxide nanoparticle	skos:exactMatch	CHEBI:50822	iron oxide nanoparticle	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+OBI:0000891	Cell proliferation assay	skos:exactMatch	BAO:0002805	cell proliferation assay	semapv:HumanCuration	orcid:0000-0002-4166-7093	2023-09-12	1.0
+
