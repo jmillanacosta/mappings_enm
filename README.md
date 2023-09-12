@@ -1,11 +1,3 @@
-|    | http://purl.obolibrary.org/obo/CHEBI_59999         | http://purl.obolibrary.org/obo/CHEBI_23367           | http://purl.obolibrary.org/obo/BFO_0000040                 | http://purl.bioontology.org/ontology/npo#NPO_199   | http://purl.bioontology.org/ontology/npo#NPO_707   |
-|---:|:---------------------------------------------------|:-----------------------------------------------------|:-----------------------------------------------------------|:---------------------------------------------------|:---------------------------------------------------|
-|  0 | http://purl.bioontology.org/ontology/npo#NPO_1973  | http://purl.org/obo/owl/CHEBI#CHEBI_23367            | http://purl.bioontology.org/ontology/npo#NPO_672           | http://purl.obolibrary.org/obo/NCIT_C62371         | http://purl.obolibrary.org/obo/CHEBI_50803         |
-|  1 | http://semanticscience.org/resource/CHEMINF_000266 | http://scai.fraunhofer.de/NDDUO#Molecular_entities   | http://purl.obolibrary.org/obo/BFO_0000141#material_entity |                                                    | http://purl.obolibrary.org/obo/NCIT_C62308         |
-|  2 | http://semanticscience.org/resource/SIO_011126     | http://www.bioassayontology.org/bao#BAO_0003043      | http://purl.obolibrary.org/obo/SIO_000004                  |                                                    |                                                    |
-|  3 |                                                    | http://www.bootstrep.eu/ontology/GRO#MolecularEntity | http://semanticscience.org/resource/SIO_000004             |                                                    |                                                    |
-|  4 |                                                    |                                                      | http://www.bioassayontology.org/bao#BAO_0003116            |                                                    |                                                    |
-
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2815474/ describes the LOOM algorythm used for mappings. It leads to very weird mappings, like BAO material entity = BAO immaterial entity, because of its text matching... It seems to be discontinued/not supported anymore, but BioPortal keeps showing the mappings from LOOM in the mappings tab.
-
+2 types of mappings:
+- When an external entity is removed by Slimmer because it is redundant from another source (which should be a 1 to 1 mapping) ([related issue](https://github.com/enanomapper/ontologies/issues/471))
+- Mappings from internal and external module entities to other ontologies (OBO, CHEBI, CHEMINF...)

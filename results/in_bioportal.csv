@@ -1,0 +1,15 @@
+kept,removed,in_bioportal
+http://purl.bioontology.org/ontology/npo#NPO_401,http://purl.obolibrary.org/obo/CHEBI_50825,True
+http://purl.bioontology.org/ontology/npo#NPO_1542,http://purl.obolibrary.org/obo/CHEBI_50836,True
+http://purl.bioontology.org/ontology/npo#NPO_729,http://purl.obolibrary.org/obo/CHEBI_50822,True
+http://purl.bioontology.org/ontology/npo#NPO_1892,http://purl.obolibrary.org/obo/CHEBI_50826,True
+http://purl.bioontology.org/ontology/npo#NPO_1893,http://purl.obolibrary.org/obo/CHEBI_52522,True
+http://purl.enanomapper.org/onto/ENM_0000089,http://www.bioassayontology.org/bao#BAO_0002135,
+http://purl.obolibrary.org/obo/OBI_0000891,http://www.bioassayontology.org/bao#BAO_0002805,True
+http://purl.obolibrary.org/obo/BTO_0000018,http://www.ebi.ac.uk/efo/EFO_0001086,False
+http://purl.bioontology.org/ontology/npo#NPO_639,http://purl.obolibrary.org/obo/ENVO_00010506,True
+http://www.bioassayontology.org/bao#BAO_0002145,http://purl.bioontology.org/ontology/npo#NPO_1196,True
+http://www.bioassayontology.org/bao#BAO_0000190,http://purl.bioontology.org/ontology/npo#NPO_1195,True
+http://purl.obolibrary.org/obo/CHEBI_52855,http://purl.bioontology.org/ontology/npo#NPO_1536,True
+http://purl.obolibrary.org/obo/IAO_0000120,http://purl.bioontology.org/ontology/npo#NPO_1424,
+http://purl.bioontology.org/ontology/npo#NPO_1417,http://purl.bioontology.org/ontology/npo#NPO_1953,False
